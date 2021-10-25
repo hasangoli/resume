@@ -1,0 +1,304 @@
+@font-face {
+  font-family: IranSans;
+  src: url('../assets/IRANSans.ttf');
+}
+
+:root {
+  --primary-color: hsl(15, 100%, 55%);
+  --secondary-color: hsl(220, 8%, 15%);
+  --border-color: hsl(180, 100%, 100%);
+  --font-color: hsl(150, 2%, 76%);
+  --extra-color: hsl(248, 5%, 30%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: IranSans;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  color: var(--font-color);
+  background-color: var(--secondary-color);
+}
+
+.container {
+  display: flex;
+}
+
+.left-line {
+  position: absolute;
+  left: 300px;
+  top: 0;
+  width: 100px;
+  height: 1000px;
+  background-color: var(--primary-color);
+}
+
+img {
+  position: absolute;
+  left: 220px;
+  top: 280px;
+  width: 650px;
+  height: 650px;
+  border-radius: 21px;
+}
+
+.top {
+  width: 100%;
+  position: relative;
+}
+
+.top-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 250px;
+  background-color: var(--primary-color);
+}
+
+.top-border {
+  position: absolute;
+  top: 250px;
+  right: 250px;
+  width: 500px;
+  height: 800px;
+  border: 5px solid var(--border-color);
+}
+
+.name {
+  position: absolute;
+  top: 250px;
+  right: 550px;
+  margin: 0;
+  padding: 0;
+}
+
+.name-bg {
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  top: 350px;
+  right: 500px;
+  background-color: var(--secondary-color);
+}
+
+.name h1 {
+  position: absolute;
+  top: 20px;
+  font-size: 13rem;
+  color: var(--primary-color);
+}
+
+.name h5 {
+  position: absolute;
+  top: 203px;
+  font-size: 8rem;
+  color: var(--primary-color);
+}
+
+.name p {
+  position: absolute;
+  top: 380px;
+  margin-right: 1rem;
+  font-size: 3rem;
+  width: 500px;
+  color: var(--font-color);
+}
+
+.contact {
+  position: absolute;
+  width: 100%;
+  top: 800px;
+  right: 800px;
+}
+
+.contact p {
+  font-size: 2.3rem;
+  display: flex;
+  align-items: center;
+  margin-block: .3rem;
+}
+
+.contact p i {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+}
+
+.contact p a {
+  color: var(--font-color);
+  margin-right: 1.8rem;
+  text-decoration: none;
+}
+
+.left,
+.right {
+  position: absolute;
+  margin-right: 5rem;
+  top: 1200px;
+  width: calc(50% - 23rem);
+}
+
+.right {
+  right: 10rem;
+}
+
+.left {
+  right: calc(50% + 5rem);
+}
+
+.section {
+  margin-bottom: 10rem;
+}
+
+.section h3 {
+  font-size: 5rem;
+  margin-bottom: 3rem;
+}
+
+.inner {
+  border-right: 5px solid var(--border-color);
+  padding: 1rem 5rem 3rem 0;
+  font-size: 2rem;
+  text-align: justify;
+  position: relative;
+}
+
+.inner .inner-heading {
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+}
+
+.inner .inner-heading span {
+  color: var(--primary-color);
+}
+
+.inner-paragraph {
+  font-size: 2.5rem;
+  display: inline;
+  margin-left: 1.3rem;
+}
+
+.inner-paragraph span {
+  margin-right: 1rem;
+  color: var(--primary-color);
+}
+
+.inner::before {
+  content: '';
+  width: 30px;
+  height: 30px;
+  top: 100px;
+  right: -39px;
+  border: 20px solid var(--secondary-color);
+  border-radius: 100rem;
+  background-color: var(--primary-color);
+  position: absolute;
+}
+
+.skill .skill-heading {
+  font-size: 2.3rem;
+  margin-block: 2rem;
+}
+
+.skill .skill-bg {
+  width: 95%;
+  height: 1rem;
+  border-radius: 10rem;
+  background-color: var(--extra-color);
+}
+
+.skill-fg {
+  height: 100%;
+  border-radius: 10rem;
+  background-color: var(--primary-color);
+}
+
+.fg-10 {
+  width: 10%;
+}
+
+.fg-15 {
+  width: 15%;
+}
+
+.fg-20 {
+  width: 20%;
+}
+
+.fg-25 {
+  width: 25%;
+}
+
+.fg-30 {
+  width: 30%;
+}
+
+.fg-35 {
+  width: 35%;
+}
+
+.fg-40 {
+  width: 40%;
+}
+
+.fg-45 {
+  width: 45%;
+}
+
+.fg-50 {
+  width: 50%;
+}
+
+.fg-55 {
+  width: 55%;
+}
+
+.fg-60 {
+  width: 60%;
+}
+
+.fg-65 {
+  width: 65%;
+}
+
+.fg-70 {
+  width: 70%;
+}
+
+.fg-75 {
+  width: 75%;
+}
+
+.fg-80 {
+  width: 80%;
+}
+
+.fg-85 {
+  width: 85%;
+}
+
+.fg-90 {
+  width: 90%;
+}
+
+.fg-95 {
+  width: 95%;
+}
+
+.fg-100 {
+  width: 100%;
+}
+
+.bottom-box {
+  width: 150px;
+  height: 150px;
+  background-color: var(--primary-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
